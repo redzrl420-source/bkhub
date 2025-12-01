@@ -1045,7 +1045,7 @@ local function createDesyncIndicator()
         Size = UDim2.new(0, 35, 0, 35),
         Position = UDim2.new(0, 12, 0.5, -17.5),
         BackgroundTransparency = 1,
-        Text = "BK's",
+        Text = "Rdz's",
         TextColor3 = Color3.fromRGB(220, 120, 255),
         TextSize = 22,
         Font = Enum.Font.GothamBold,
@@ -5456,7 +5456,7 @@ local function createGui()
     title.Size = UDim2.new(1, 0, 0, 22)
     title.Position = UDim2.new(0, isMobile and 15 or (isTablet and 20 or 95), 0, 5)
     title.BackgroundTransparency = 1
-    title.Text = "BK's Hub | v2.5 ;)"
+    title.Text = "DiscoHub | v2.5 ;)"
     title.Font = Enum.Font.GothamBold
     title.TextSize = titleSize
     title.TextColor3 = COLORS.Purple
@@ -5473,7 +5473,7 @@ local function createGui()
     sub.Size = UDim2.new(1, 0, 0, 18)
     sub.Position = UDim2.new(0, 15, 0, isMobile and 28 or (isTablet and 29 or 30))
     sub.BackgroundTransparency = 1
-    sub.Text = "@bkmd_ytt | discord.gg/bkshub"
+    sub.Text = "DiscoNoti"
     sub.Font = Enum.Font.Gotham
     sub.TextSize = subSize
     sub.TextColor3 = COLORS.Pink
@@ -5649,7 +5649,7 @@ local function createGui()
         Size = UDim2.new(1, -60, 0, 25),
         Position = UDim2.new(0, 15, 0, 10),
         BackgroundTransparency = 1,
-        Text = "BK's Hub | v2.5 ;)",
+        Text = "Disco's Hub | v2.5 ;)",
         TextColor3 = COLORS.Purple,
         TextSize = isMobile and 17 or (isTablet and 18 or 19),
         Font = Enum.Font.GothamBold,
@@ -5664,7 +5664,7 @@ local function createGui()
         Size = UDim2.new(1, -60, 0, 18),
         Position = UDim2.new(0, 15, 0, 35),
         BackgroundTransparency = 1,
-        Text = "by Tuff Boii | @bkmd_ytt | discord.gg/bkshub",
+        Text = "DiscoHub",
         TextColor3 = COLORS.Pink,
         TextSize = isMobile and 11 or (isTablet and 12 or 13),
         Font = Enum.Font.Gotham,
