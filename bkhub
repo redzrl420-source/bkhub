@@ -1456,7 +1456,7 @@ local function refreshPlayerESP()
             local distInt = math.floor(dist + 0.5)
             
             if rec.nameLabel then
-                rec.nameLabel.Text = string.format("%s [%dm]", plr.Name, distInt)
+                rec.nameLabel.Text = string.format("%s [%dm]", plr.DisplayName, distInt)
             end
         end
     end
